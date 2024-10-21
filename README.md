@@ -32,12 +32,17 @@ This project is inspired by the [Hackster.io project by Charlie Diaz](https://ww
 - **Modular Interaction Modes**
   - Task scheduling using FreeRTOS
   - Different operation modes (Idle, Movement, Sampling, etc.)
+- **UI/Display**
+  - Display system status and telemetry data
+  - Basic user interaction
 - **Autonomous Navigation**
   - Obstacle detection using ultrasonic sensors
   - Basic navigation and obstacle avoidance
 - **Telemetry**
   - UART-based telemetry system
   - Report data over monitor *(for now)*
+- **Power Management**
+  - Battery monitoring and power management
 - **Custom Enclosures:** 3D printed mechanical parts and enclosures inspired by the Hackster.io project by Charlie Diaz
 
 ## Hardware Components
@@ -74,4 +79,26 @@ RTOS-TARS-Control-System/
 
 ## Project Status
 
-- Prep
+### Overview
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row1Col1 | Row1Col2 | Row1Col3 |
+| Row2Col1 | Row2Col2 | Row2Col3 |
+| Row3Col1 | Row3Col2 | Row3Col3 |
+
+#### **PHASE** : Preparing
+
+**LENGTH**: 3 Weeks
+
+**START**:  10/18/2024
+
+**END**:    11/08/2024
+
+#### **GOALS**
+
+- **Put Enclosure Together**
+  - Assemble 3D printed parts
+- **Setup Development Environment**
+  - Install STM32CubeMX
+  - Setup project in STM32CubeIDE
